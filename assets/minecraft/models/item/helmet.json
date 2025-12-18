@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "entity/equipment/humanoid/netherite",
+		"particle": "entity/equipment/humanoid/netherite"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#0"},
+				"south": {"uv": [6, 4, 8, 8], "texture": "#0"},
+				"west": {"uv": [4, 4, 6, 8], "texture": "#0"},
+				"up": {"uv": [2, 0, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 5, 7],
+			"to": [4, 7, 9],
+			"rotation": {"angle": -30, "axis": "z", "origin": [4, 5, 7]},
+			"faces": {
+				"north": {"uv": [2.75, 0, 3.25, 3], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [2.75, 0, 3.25, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2.75, 0, 3.25, 3], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [2.75, 0, 3.25, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.75, 0, 3.25, 3], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [2.75, 0, 3.25, 3], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 5, 7],
+			"to": [18, 7, 9],
+			"rotation": {"angle": 30, "axis": "z", "origin": [12, 5, 9]},
+			"faces": {
+				"north": {"uv": [2.75, 0.5, 3.25, 3.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [2.75, 0.5, 3.25, 1.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2.75, 0.5, 3.25, 3.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [2.75, 0.5, 3.25, 1.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.75, 0.5, 3.25, 3.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [2.75, 0.5, 3.25, 3.5], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 6.75, 0],
+			"scale": [1.81, 1.81, 1.81]
+		}
+	}
+}
